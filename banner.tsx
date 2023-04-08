@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './style.css';
 export default function Banner(){
 return(
 
@@ -6,7 +7,7 @@ return(
         <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item">
-                    <img className="w-100" src="img/carousel-1.jpg" alt="Image"/>
+                    <img className="w-100" src="/carousel-1.jpg" alt="Image"/>
                     <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div className="p-3" >
                             <i className="fa fa-home fa-4x text-primary mb-4 d-none d-sm-block"></i>
